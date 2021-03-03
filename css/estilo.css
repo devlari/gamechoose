@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css");
+
+    /* PÁGINA PRINCIPAL */
+/* Mudanças em cores/formatos */
+
+body{
+    background-color: #1B1811;
+}
+.fira-branco{
+    font-family: Fira Sans;
+    color:#FDFFFC;
+}
+.fira-preto{
+    font-family: Fira Sans;
+    color:#1B1811;
+}
+.fira-verde{
+    font-family: Fira Sans;
+    color:#78BC61;   
+}
+.changa{
+    font-family: Changa;
+    color: #78BC61;
+}
+
+
+/* Menu */
+
+.menu ul li a{
+    color:#FDFFFC;
+    border-style: none;
+}
+.menu ul li a:hover{
+    color:#78BC61;
+}
+
+.menu a.ativo{
+    color:#78BC61;
+}
+
+
+/* Imagem principal */
+
+.titulo{
+    top: 40%;
+    width:100%;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+}
+/* Conteúdo da página */
+
+.conteudo{
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.conteudo h2{
+    font-family: Changa;
+    color: #78BC61;
+}
+
+.conteudo a:hover{
+    color:#FDFFFC;
+}
+
+/* Rodapé */
+footer{
+    background-color: #78BC61;
+}
+
+/* CADASTRO/LOGIN */
+
+.cadastro{
+    margin-top:5%;
+    background-color:#FDFFFC;
+    border-radius: 20px;
+    width:70%;
+    margin-left: 15%;
+}
+.centralizar{
+    width:100%;
+    text-align: center;
+}
+.caixa{
+    margin-left: 5%;
+}
+.textbox{
+    width:95%;
+    margin-bottom: 20px;
+}
+.botao{
+    width:60%;
+    background-color: #78BC61;
+}
+
+.verde{
+    background-color: #78BC61;
+}
+
+/* PÁGINA INICIAL */
+
+.destaque{
+    top: 5%;
+    width:100%;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 50px;
+}
+.imagem{
+    filter: opacity(50%);
+}
+.espaco{
+    margin-top:5%;
+}
+.alinhar{
+    height: 400px;
+}
+.icone{
+    float: left;
+    margin:4%;
+}
+.podium{
+    margin-top:5%;
+    background-color:#FDFFFC;
+    width:90%;
+    margin-left: 5%;
+}
