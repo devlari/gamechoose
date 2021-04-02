@@ -117,14 +117,77 @@ footer{
 }
 .alinhar{
     height: 400px;
+    margin-left: 7%;
 }
 .icone{
     float: left;
     margin:4%;
+    text-align: center;
+    height:130px;
 }
 .podium{
     margin-top:5%;
-    background-color:#FDFFFC;
-    width:90%;
     margin-left: 5%;
+    margin-bottom: 5%;
+    width:90%;
+}
+.nomejogo{
+    width: 128px;
+    margin-top: 10px;
+}
+
+.changa-primeiro{
+    font-family: Changa;
+    color: #FFD700;
+}
+.borda-primeiro{
+    border: 10px solid #FFD700;
+    border-radius: 10%;
+}
+
+.changa-segundo{
+    font-family: Changa;
+    color: #C0C0C0;
+}
+.borda-segundo{
+    border: 10px solid #C0C0C0;
+    border-radius: 10%;
+}
+
+.changa-terceiro{
+    font-family: Changa;
+    color: #CD7F32;
+}
+.borda-terceiro{
+    border: 10px solid #CD7F32;
+    border-radius: 10%;
+}
+
+.changa-branco{
+    font-family: Changa;
+    color: #FFFFFF;
+}
+.borda-branco{
+    border: 10px solid #fff;
+    border-radius: 10%;
+}
+
+/* LOJA */
+
+.loja{
+    margin-top: 50px;
+    height: 1000px;
+    background-color: #FDFFFC;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 17px;
+    margin-bottom: 50px;
+}
+
+.menu-filtros{
+    border-bottom: 3px solid #1B1811;
+    font-size: 20px;
+    border-radius: 17px;
+    background-color: grey;
+    height: 50px;
 }
