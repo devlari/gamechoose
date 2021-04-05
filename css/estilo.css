@@ -67,7 +67,8 @@ body{
 }
 
 /* Rodapé */
-footer{
+
+footer, verde, verde:hover{
     background-color: #78BC61;
 }
 
@@ -103,7 +104,7 @@ footer{
 /* PÁGINA INICIAL */
 
 .destaque{
-    top: 5%;
+    top: 3%;
     width:100%;
     line-height: 30px;
     position: absolute;
@@ -113,7 +114,7 @@ footer{
     filter: opacity(50%);
 }
 .espaco{
-    margin-top:5%;
+    margin-top:0;
 }
 .alinhar{
     height: 400px;
@@ -122,6 +123,7 @@ footer{
 .icone{
     float: left;
     margin:4%;
+    margin-bottom: 5%;
     text-align: center;
     height:130px;
 }
@@ -175,8 +177,8 @@ footer{
 /* LOJA */
 
 .loja{
-    margin-top: 50px;
-    height: 1000px;
+    margin-top: 5%;
+    height: 100%;
     background-color: #FDFFFC;
     width: 90%;
     margin-left: 5%;
@@ -184,10 +186,83 @@ footer{
     margin-bottom: 50px;
 }
 
-.menu-filtros{
-    border-bottom: 3px solid #1B1811;
-    font-size: 20px;
+.loja ul li a:hover{
+    color:#78BC61;
+}
+
+.loja ul li a.ativo{
+    color:#78BC61;
+}
+
+.jogo{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.jogos{
+    margin-left: 7%;
+    margin-right:7%;
+}
+
+/* SISTEMA DE FLIP´CARD */
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Efeitinho 3d */
+}
+  
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+/* Da o 180 bonitão */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+/* Posição das duas divs juntas */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+  
+/* Parte da frente (caso n tenha imagem) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+/* Estilo da parte de trás */
+.flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.paginacao{
+    clear:left;
+}
+
+/* JOGO */
+
+.pagina-jogo{
+    margin-top: 5%;
+    height: 1000px;
+    background-color: #FDFFFC;
+    width: 90%;
+    margin-left: 5%;
     border-radius: 17px;
-    background-color: grey;
-    height: 50px;
+    margin-bottom: 50px;
 }
