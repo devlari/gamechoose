@@ -196,13 +196,12 @@ footer, verde, verde:hover{
 
 .jogo{
     float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .jogos{
-    margin-left: 7%;
-    margin-right:7%;
+    margin-left: 9%;
 }
 
 /* SISTEMA DE FLIP´CARD */
@@ -259,10 +258,36 @@ footer, verde, verde:hover{
 
 .pagina-jogo{
     margin-top: 5%;
-    height: 1000px;
+    height: 100%;
     background-color: #FDFFFC;
     width: 90%;
     margin-left: 5%;
     border-radius: 17px;
     margin-bottom: 50px;
+}
+
+.descricao-jogo{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.comprar{
+    height:80px;
+    background-color: #C0C0C0;
+    border-radius: 0px 0px 17px 17px;
+    margin-top: 20px;
+}
+
+.centro{
+    height: 50px;
+}
+
+.botao-carrinho{
+    float: right;
+    margin-top: -12px;
+    margin-right: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 16pt;
 }
