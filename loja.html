@@ -10,129 +10,93 @@
     <title>Loja</title>
 </head>
 <body>
-    <div class="tabs menu fira-branco is-fullwidth is-centered is-medium">
+    <!-- Menu Site -->
+    <div class="tabs fira-branco is-fullwidth is-centered is-medium" id="menu">
         <ul>
             <li><a href="inicio.html"><img src="img/menu.png" width=40 height=40 class="imagem-principal" /></a></li>
             <li><a class="ativo" href="loja.html">Loja</a></li>
             <li><a href="biblioteca.html">Biblioteca</a></li>
             <li><a href="carrinho.html">Carrinho</a></li>
             <li><a href="perfil.html">Perfil</a></li>
-            <li><a href=#>Sair</a></li>
+            <li><a href="index.html">Sair</a></li>
         </ul>
     </div>
 
-    <div class="loja">
-      <div class="tabs is-boxed is-fullwidth">
-      <ul>
-          <li>
-            <a><span>Nome A-Z</span></a>
-          </li>
-          <li>
-            <a><span>Nome Z-A</span></a>
-          </li>
-          <li>
-            <a><span>Preço crescente</span></a>
-          </li>
-          <li>
-            <a><span>Preço decrescente</span></a>
-          </li>
-          <li class="is-active">
-            <a class="ativo"><span>Maior popularidade</span></a>
-          </li>
-          <li>
-            <a><span>Menor popularidade</span></a>
-          </li>
-      </ul>
-      </div>
 
-      <div class="jogos">
-        <div class="jogo">
-          <a href="jogo.html">
-              <div class="flip-card">
-                  <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                         <img src="img/cyberpunk.jpg">
-                      </div>
-                      <div class="flip-card-back">
-                          <br/>
-                          <h1 class="changa title is-4">Cyberpunk 2077</h1>
-                          <p class="fira-branco">160.00 R$</p>
-                          <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                      </div>
-                  </div>
+    <div id="container-principal">
+      <!-- Filtros (ainda não finalizado) -->      
+      <nav class="navbar" id="filtros" role="navigation">
+            <div class="navbar-start">
+              <div class="navbar-item">
+                <p class="fira-preto"><strong>Filtrar por:</strong></p>
               </div>
-          </a>
-        </div>
-        <div class="jogo">
-          <a href="jogo.html">
-              <div class="flip-card">
-                  <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                         <img src="img/moonlighter.jpg">
-                      </div>
-                      <div class="flip-card-back">
-                          <br/>
-                          <h1 class="changa title is-4">Moonlighter</h1>
-                          <p class="fira-branco">40.00 R$</p>
-                          <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                      </div>
-                  </div>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class=" fira-preto navbar-link is-arrowless">
+                  Nome ↓
+                </a>
+                <div class="navbar-dropdown">
+                  <a class="fira-preto navbar-item">
+                    A-Z
+                  </a>
+                  <a class="fira-preto navbar-item">
+                    Z-A
+                  </a>
+                </div>
               </div>
-          </a>
-        </div>
-        <div class="jogo">
-          <a href="jogo.html">
-              <div class="flip-card">
-                  <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                         <img src="img/overcooked2.jpg">
-                      </div>
-                      <div class="flip-card-back">
-                          <br/>
-                          <h1 class="changa title is-4">Overcooked! 2</h1>
-                          <p class="fira-branco">60.00 R$</p>
-                          <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                      </div>
-                  </div>
-              </div>
-          </a>
-        </div>
-        <div class="jogo">
-          <a href="jogo.html">
-              <div class="flip-card">
-                  <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                         <img src="img/tricky.jpg">
-                      </div>
-                      <div class="flip-card-back">
-                          <br/>
-                          <h1 class="changa title is-4">Tricky Towers</h1>
-                          <p class="fira-branco">30.00 R$</p>
-                          <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                      </div>
-                  </div>
-              </div>
-          </a>
-        </div>
-        <div class="jogo">
-          <a href="jogo.html">
-              <div class="flip-card">
-                  <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                         <img src="img/enterthe.jpg">
-                      </div>
-                      <div class="flip-card-back">
-                          <br/>
-                          <h1 class="changa title is-4">Enter The Gungeon</h1>
-                          <p class="fira-branco">30.00 R$</p>
-                          <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                      </div>
-                  </div>
-              </div>
-          </a>
-        </div>
 
-        <div class="jogo">
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="fira-preto navbar-link is-arrowless">
+                  Preço ↓
+                </a>
+                <div class="navbar-dropdown">
+                  <a class="fira-preto navbar-item">
+                    Crescente
+                  </a>
+                  <a class="fira-preto navbar-item">
+                    Descrescente
+                  </a>
+              </div>
+              </div>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="fira-preto navbar-link is-arrowless">
+                  Popularidade ↓
+                </a>
+                <div class="navbar-dropdown">
+                  <a class="fira-preto navbar-item">
+                    Mais vendidos
+                  </a>
+                  <a class="fira-preto navbar-item">
+                    Menos vendidos
+                  </a>
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="fira-preto navbar-link is-arrowless">
+                Categoria ↓
+              </a>
+              <div class="navbar-dropdown">
+                <a class="fira-preto navbar-item">
+                  Ação
+                </a>
+                <a class="fira-preto navbar-item">
+                  RPG
+                </a>
+                <a class="fira-preto navbar-item">
+                  Aventura
+                </a>
+                <a class="fira-preto navbar-item">
+                  Terror
+                </a>
+              </div>
+            </div>
+
+        </div>
+      </nav>
+
+        <!-- Loja -->
+        <div class="jogos">
+          <div class="jogo">
             <a href="jogo.html">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -141,7 +105,7 @@
                         </div>
                         <div class="flip-card-back">
                             <br/>
-                            <h1 class="changa">Cyberpunk</h1>
+                            <h1 class="changa title is-4">Cyberpunk 2077</h1>
                             <p class="fira-branco">160.00 R$</p>
                             <p class="fira-branco is-medium">Clique para mais detalhes</p>
                         </div>
@@ -158,7 +122,7 @@
                         </div>
                         <div class="flip-card-back">
                             <br/>
-                            <h1 class="changa">Moonlighter</h1>
+                            <h1 class="changa title is-4">Moonlighter</h1>
                             <p class="fira-branco">40.00 R$</p>
                             <p class="fira-branco is-medium">Clique para mais detalhes</p>
                         </div>
@@ -175,7 +139,7 @@
                         </div>
                         <div class="flip-card-back">
                             <br/>
-                            <h1 class="changa">Overcooked! 2</h1>
+                            <h1 class="changa title is-4">Overcooked! 2</h1>
                             <p class="fira-branco">60.00 R$</p>
                             <p class="fira-branco is-medium">Clique para mais detalhes</p>
                         </div>
@@ -192,7 +156,7 @@
                         </div>
                         <div class="flip-card-back">
                             <br/>
-                            <h1 class="changa">Tricky Towers</h1>
+                            <h1 class="changa title is-4">Tricky Towers</h1>
                             <p class="fira-branco">30.00 R$</p>
                             <p class="fira-branco is-medium">Clique para mais detalhes</p>
                         </div>
@@ -209,7 +173,7 @@
                         </div>
                         <div class="flip-card-back">
                             <br/>
-                            <h1 class="changa">Enter The Gungeon</h1>
+                            <h1 class="changa title is-4">Enter The Gungeon</h1>
                             <p class="fira-branco">30.00 R$</p>
                             <p class="fira-branco is-medium">Clique para mais detalhes</p>
                         </div>
@@ -217,285 +181,371 @@
                 </div>
             </a>
           </div>
-
+  
           <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/cyberpunk.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Cyberpunk</h1>
-                            <p class="fira-branco">160.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/cyberpunk.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Cyberpunk</h1>
+                              <p class="fira-branco">160.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/moonlighter.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Moonlighter</h1>
+                              <p class="fira-branco">40.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/overcooked2.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Overcooked! 2</h1>
+                              <p class="fira-branco">60.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/tricky.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Tricky Towers</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/enterthe.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Enter The Gungeon</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+  
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/cyberpunk.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Cyberpunk</h1>
+                              <p class="fira-branco">160.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/moonlighter.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Moonlighter</h1>
+                              <p class="fira-branco">40.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/overcooked2.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Overcooked! 2</h1>
+                              <p class="fira-branco">60.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/tricky.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Tricky Towers</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/enterthe.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Enter The Gungeon</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+  
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/cyberpunk.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Cyberpunk</h1>
+                              <p class="fira-branco">160.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/moonlighter.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Moonlighter</h1>
+                              <p class="fira-branco">40.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/overcooked2.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Overcooked! 2</h1>
+                              <p class="fira-branco">60.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/tricky.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Tricky Towers</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/enterthe.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Enter The Gungeon</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+  
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/cyberpunk.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Cyberpunk</h1>
+                              <p class="fira-branco">160.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/moonlighter.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Moonlighter</h1>
+                              <p class="fira-branco">40.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/overcooked2.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Overcooked! 2</h1>
+                              <p class="fira-branco">60.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/tricky.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Tricky Towers</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="jogo">
+              <a href="jogo.html">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="img/enterthe.jpg">
+                          </div>
+                          <div class="flip-card-back">
+                              <br/>
+                              <h1 class="changa">Enter The Gungeon</h1>
+                              <p class="fira-branco">30.00 R$</p>
+                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
+                          </div>
+                      </div>
+                  </div>
+              </a>
           </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/moonlighter.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Moonlighter</h1>
-                            <p class="fira-branco">40.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/overcooked2.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Overcooked! 2</h1>
-                            <p class="fira-branco">60.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/tricky.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Tricky Towers</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/enterthe.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Enter The Gungeon</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/cyberpunk.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Cyberpunk</h1>
-                            <p class="fira-branco">160.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/moonlighter.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Moonlighter</h1>
-                            <p class="fira-branco">40.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/overcooked2.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Overcooked! 2</h1>
-                            <p class="fira-branco">60.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/tricky.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Tricky Towers</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/enterthe.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Enter The Gungeon</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/cyberpunk.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Cyberpunk</h1>
-                            <p class="fira-branco">160.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/moonlighter.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Moonlighter</h1>
-                            <p class="fira-branco">40.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/overcooked2.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Overcooked! 2</h1>
-                            <p class="fira-branco">60.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/tricky.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Tricky Towers</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/enterthe.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa">Enter The Gungeon</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-    </div>
+        </div>
       
-      <div class="paginacao">
-        <hr>
-        <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-            <a class="pagination-previous">Página anterior</a>
-            <a class="pagination-next">Próxima página</a>
+        <hr class="clear">
+        <!-- Paginação -->
+        <nav class="pagination is-centered" id="paginacao" role="navigation" aria-label="pagination">
+            <a class="fira-preto pagination-previous">Página anterior</a>
+            <a class="fira-preto pagination-next">Próxima página</a>
             <ul class="pagination-list">
-              <li><a class="pagination-link verde" aria-label="Goto page 1">1</a></li>
-              <li><a class="pagination-link">2</a></li>
-              <li><a class="pagination-link" aria-current="page">3</a></li>
+              <li><a class="fira-preto pagination-link verde" aria-label="Goto page 1">1</a></li>
+              <li><a class="fira-preto pagination-link">2</a></li>
+              <li><a class="fira-preto pagination-link" aria-current="page">3</a></li>
             </ul>
-          </nav>
-      </div>
-  </div>
-  </div>
+        </nav>
 
+    </div>
+    
+    <!-- Footer -->
     <footer>
         <div class="navbar-menu is-active verde">
             <div class="navbar-start">
-                <div class="navbar-item verde">
+                <div class="navbar-item">
                     <p class="content is-medium fira-preto"><strong>GameChoose | Larissa Sousa, 2021</strong></p>
                 </div>
             </div>

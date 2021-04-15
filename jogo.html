@@ -10,26 +10,27 @@
     <title>Nome do Jogo</title>
 </head>
 <body>
-    <div class="tabs menu fira-branco is-fullwidth is-centered is-medium">
+    <!-- Menu Site -->
+    <div class="tabs fira-branco is-fullwidth is-centered is-medium" id="menu">
         <ul>
             <li><a href="inicio.html"><img src="img/menu.png" width=40 height=40 class="imagem-principal" /></a></li>
             <li><a href="loja.html">Loja</a></li>
             <li><a href="biblioteca.html">Biblioteca</a></li>
             <li><a href="carrinho.html">Carrinho</a></li>
             <li><a href="perfil.html">Perfil</a></li>
-            <li><a href=#>Sair</a></li>
+            <li><a href="index.html">Sair</a></li>
         </ul>
     </div>
 
-    <div class="pagina-jogo">
-        <br/>
-        <h1 class="title is-2 changa centralizar">Cyberpunk 2077</h1>
+    <div id="container-principal">
+        <div id="titulo-jogo">
+            <h1 class="title is-2 changa centralizar">Cyberpunk 2077</h1>
+        </div>
         <figure class="image is-2by1">
             <img src="img/cyberpunk-2077.jpg"/>
-          </figure>
+        </figure>
 
-          <div class="descricao-jogo">
-
+        <div id="descricao-jogo">
             <h1 class="changa title is-3">Sobre o Jogo:</h1>
             <p class="fira-preto content is-large">
                 Cyberpunk 2077 é uma história de ação 
@@ -45,7 +46,7 @@
                 onde as decisões tomadas definem a história 
                 e o mundo ao seu redor.
             </p>
-            
+                
             <p class="fira-preto content is-large">
                 <strong>JOGUE COMO UM MERCENÁRIO FORA DA LEI</strong>
                 Torne-se um cyberpunk — um mercenário urbano equipado 
@@ -68,7 +69,7 @@
             </p>
 
             <p class="fira-preto content is-large"><strong>Categorias:</strong> RPG, ação</p>
-            <table class="table is-striped" width=100%>
+            <table class="table is-striped">
                 <tr>
                     <th></th>
                     <th><p class="fira-preto content is-medium">Requisitos mínimos</p></th>
@@ -100,21 +101,19 @@
                     <td><p class="fira-preto content is-medium">70 GB livres em disco (SSD)</p></td>
                 </tr>
             </table>
-                </div>
-        
-                <div class="comprar">
-                    <div class="centro">
-                    <br>
-                    <span class="fira-branco title is-4" style="margin-left: 10px;"><strong>Comprar Cyberpunk 2077 - 160R$</strong></span>
-                    <button class="button botao-carrinho verde fira-branco">+ Carrinho</button>
-                </div>
-                </div>
-            </div>
+        </div>
+        <br>
+        <div id="comprar">
+            <p class="fira-preto"><strong> Comprar Cyberpunk 2077 - 160R$</strong></p>
+            <button class="button fira-branco verde">+ Carrinho</button>
+        </div>
+    </div>
 
+    <!-- Footer -->
     <footer>
         <div class="navbar-menu is-active verde">
             <div class="navbar-start">
-                <div class="navbar-item verde">
+                <div class="navbar-item">
                     <p class="content is-medium fira-preto"><strong>GameChoose | Larissa Sousa, 2021</strong></p>
                 </div>
             </div>

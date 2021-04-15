@@ -7,6 +7,7 @@
 
 body{
     background-color: #1B1811;
+    font-size: 14pt;
 }
 .fira-branco{
     font-family: Fira Sans;
@@ -24,66 +25,77 @@ body{
     font-family: Changa;
     color: #78BC61;
 }
-
+.verde{
+    background-color: #78BC61;
+}
+.centralizar{
+    width:100%;
+    text-align: center;
+}
+.imagem-escura{
+    filter: opacity(50%);
+}
+.clear{
+    clear:both;
+}
 
 /* Menu */
 
-.menu ul li a{
+#menu ul li a{
     color:#FDFFFC;
     border-style: none;
 }
-.menu ul li a:hover{
+#menu ul li a:hover{
     color:#78BC61;
 }
-
-.menu a.ativo{
+#menu a.ativo{
     color:#78BC61;
 }
 
 
 /* Imagem principal */
 
-.titulo{
+#titulo{
     top: 40%;
     width:100%;
     line-height: 30px;
     position: absolute;
     text-align: center;
 }
+
 /* Conteúdo da página */
 
-.conteudo{
+#conteudo-index{
     margin-left:10%;
     margin-right: 10%;
     margin-top: 5%;
 }
-.conteudo h2{
+/* Poderia colocar a class Changa nesses H2,
+    Mas por algum motivo a cor não aparecia,
+    então forcei o h2 */
+#conteudo-index h2{
     font-family: Changa;
     color: #78BC61;
 }
-
-.conteudo a:hover{
+#conteudo-index a:hover{
     color:#FDFFFC;
 }
 
 /* Rodapé */
 
-footer, verde, verde:hover{
+footer{
     background-color: #78BC61;
 }
 
 /* CADASTRO/LOGIN */
 
-.cadastro{
+#cadastro-login{
     margin-top:5%;
     background-color:#FDFFFC;
     border-radius: 20px;
     width:70%;
     margin-left: 15%;
-}
-.centralizar{
-    width:100%;
-    text-align: center;
+    margin-bottom: 5%;
 }
 .caixa{
     margin-left: 5%;
@@ -93,50 +105,43 @@ footer, verde, verde:hover{
     margin-bottom: 20px;
 }
 .botao{
-    width:60%;
-    background-color: #78BC61;
-}
-
-.verde{
+    margin-top:30px;
+    margin-bottom: 30px;
+    width:90%;
     background-color: #78BC61;
 }
 
 /* PÁGINA INICIAL */
 
-.destaque{
+#destaque{
     top: 3%;
     width:100%;
     line-height: 30px;
     position: absolute;
     margin-left: 50px;
 }
-.imagem{
-    filter: opacity(50%);
-}
-.espaco{
-    margin-top:0;
-}
-.alinhar{
-    height: 400px;
-    margin-left: 7%;
-}
-.icone{
-    float: left;
-    margin:4%;
-    margin-bottom: 5%;
-    text-align: center;
-    height:130px;
-}
-.podium{
-    margin-top:5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+#podium{
+    margin:5%;
     width:90%;
 }
+
+#icones{
+    margin-left: 5%;
+}
+
+.icone{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .nomejogo{
     width: 128px;
     margin-top: 10px;
 }
+
+/* Cores diferenciadas das bordas */
 
 .changa-primeiro{
     font-family: Changa;
@@ -176,22 +181,25 @@ footer, verde, verde:hover{
 
 /* LOJA */
 
-.loja{
+#container-principal{
     margin-top: 5%;
     height: 100%;
     background-color: #FDFFFC;
     width: 90%;
     margin-left: 5%;
-    border-radius: 17px;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
-.loja ul li a:hover{
+#container-principal nav a:hover{
     color:#78BC61;
-}
+} 
 
-.loja ul li a.ativo{
-    color:#78BC61;
+#filtros{
+    padding: 15px; 
+    border-radius: 20px 20px 0 0;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
 }
 
 .jogo{
@@ -201,10 +209,10 @@ footer, verde, verde:hover{
 }
 
 .jogos{
-    margin-left: 9%;
+    margin-left: 4%;
 }
 
-/* SISTEMA DE FLIP´CARD */
+/* Sistema de flipcard */
 
 .flip-card {
     background-color: transparent;
@@ -213,8 +221,7 @@ footer, verde, verde:hover{
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Efeitinho 3d */
 }
-  
-/* This container is needed to position the front and back side */
+/* Este container é necessário para posicionar a parte frontal e traseira */
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -223,12 +230,12 @@ footer, verde, verde:hover{
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
-  
+
 /* Da o 180 bonitão */
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-  
+
 /* Posição das duas divs juntas */
 .flip-card-front, .flip-card-back {
     position: absolute;
@@ -236,13 +243,13 @@ footer, verde, verde:hover{
     height: 100%;
     backface-visibility: hidden;
 }
-  
+
 /* Parte da frente (caso n tenha imagem) */
 .flip-card-front {
     background-color: #bbb;
     color: black;
 }
-  
+
 /* Estilo da parte de trás */
 .flip-card-back {
     background-color: black;
@@ -250,44 +257,66 @@ footer, verde, verde:hover{
     transform: rotateY(180deg);
 }
 
-.paginacao{
-    clear:left;
+#paginacao{
+    padding: 15px;
 }
 
 /* JOGO */
 
-.pagina-jogo{
-    margin-top: 5%;
-    height: 100%;
-    background-color: #FDFFFC;
-    width: 90%;
-    margin-left: 5%;
-    border-radius: 17px;
-    margin-bottom: 50px;
+#titulo-jogo{
+    background-color: lightgray;
+    border-radius: 20px 20px 0 0;
+    padding:20px;
 }
 
-.descricao-jogo{
+#descricao-jogo{
     margin-top: 20px;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.comprar{
+#comprar{
     height:80px;
-    background-color: #3f3e3e;
+    background-color: lightgray;
     border-radius: 0px 0px 17px 17px;
-    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+/* BIBLIOTECA */
+
+#jogo-biblioteca{
+    border-top: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
-.centro{
-    height: 50px;
+/* CARRINHO */
+
+#jogo-carrinho{
+    border-top: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
-.botao-carrinho{
-    float: right;
-    margin-top: -12px;
+#preco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#total{
+    margin-top: 15px;
     margin-right: 20px;
-    height: 50px;
-    width: 150px;
-    font-size: 16pt;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }

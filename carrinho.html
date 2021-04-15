@@ -10,27 +10,46 @@
     <title>Carrinho</title>
 </head>
 <body>
-    <div class="tabs menu fira-branco is-fullwidth is-centered is-medium">
+
+    <!-- Menu Site -->
+    <div class="tabs fira-branco is-fullwidth is-centered is-medium" id="menu">
         <ul>
             <li><a href="inicio.html"><img src="img/menu.png" width=40 height=40 class="imagem-principal" /></a></li>
-            <li><a class="ativo" href="loja.html">Loja</a></li>
+            <li><a href="loja.html">Loja</a></li>
             <li><a href="biblioteca.html">Biblioteca</a></li>
-            <li><a href="carrinho.html">Carrinho</a></li>
+            <li><a class="ativo" href="carrinho.html">Carrinho</a></li>
             <li><a href="perfil.html">Perfil</a></li>
-            <li><a href=#>Sair</a></li>
+            <li><a href="index.html">Sair</a></li>
         </ul>
     </div>
 
+    <!-- Carrinho -->
+    <div id="container-principal">
+        <br>
+        <div id="jogo-carrinho">
+            <figure class="image is-128x128">
+                <img class="borda-branco" src="img/cyberpunk.jpg" width=100 height="100"/>
+            </figure>
+            <p class="fira-preto"><strong>Cyberpunk 2077</strong></p>
+            <div id="preco">
+                <p class="fira-preto">160 R$</p>
+                <a class="fira-preto"><strong>Remover</strong></a>
+            </div>
+        </div>
+        <div id="total">
+            <p>Total: 160R$</p>
+            <button class="button fira-branco verde">Finalizar compra</button>
+        </div>
+        <br>
+    </div>
+
+    <!-- Footer -->
     <footer>
         <div class="navbar-menu is-active verde">
             <div class="navbar-start">
-                <div class="navbar-item verde">
+                <div class="navbar-item">
                     <p class="content is-medium fira-preto"><strong>GameChoose | Larissa Sousa, 2021</strong></p>
                 </div>
-            </div>
-
-            <div class="container">
-
             </div>
 
             <div class="navbar-end">
