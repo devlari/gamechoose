@@ -27,18 +27,33 @@
     <div id="container-principal">
         <div id="perfil">
             <div id="botao-alterar">
-                <button class="button fira-branco verde">Alterar Perfil</button>
+                <button class="button fira-branco verde">Salvar</button>
             </div>
             <div class="clear"></div>
             <div id="foto-perfil">
                 <figure>
                     <img src="img/icone.png" height=300 width=300>
                 </figure>
+                <div class="file textbox">
+                    <label class="file-label">
+                      <input class="file-input" type="file" name="resume">
+                      <span class="file-cta">
+                        <span class="file-icon">
+                          <i class="fas fa-upload"><img src="img/up-arrow.png"/></i>
+                        </span>
+                        <span class="file-label fira-preto">
+                          Escolha um arquivo...
+                        </span>
+                      </span>
+                    </label>
+                  </div>
             </div>
             <div id="info-perfil">
-                <h2 class="fira-preto title">LissyHK</h2>
-                <p class="fira-preto">Nome: Larissa Sousa Silva</p>
-                <p class="fira-preto">E-mail: lrss.sousa.silva@gmail.com</p>
+                <form action=#>
+                    <input class="input fira-preto" type="text" placeholder="LissyHK">
+                    <input class="input fira-preto" type="text" placeholder="Larissa Sousa Silva">
+                    <input class="input fira-preto" type="text" placeholder="lrss.sousa.silva@gmail.com">
+                </form>
             </div>
             <div class="clear" id="jogos-perfil">
                 <p class="titulo-perfil fira-preto">Jogos:</p>

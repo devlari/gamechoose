@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css");
 
-    /* PÁGINA PRINCIPAL */
+/* *** PÁGINA PRINCIPAL *** */
 /* Mudanças em cores/formatos */
 
 body{
@@ -39,7 +39,7 @@ body{
     clear:both;
 }
 
-/* Menu */
+/* *** MENU *** */
 
 #menu ul li a{
     color:#FDFFFC;
@@ -87,7 +87,7 @@ footer{
     background-color: #78BC61;
 }
 
-/* CADASTRO/LOGIN */
+/* *** CADASTRO/LOGIN *** */
 
 #cadastro-login{
     margin-top:5%;
@@ -111,7 +111,7 @@ footer{
     background-color: #78BC61;
 }
 
-/* PÁGINA INICIAL */
+/* *** PÁGINA INICIAL *** */
 
 #destaque{
     top: 3%;
@@ -179,7 +179,7 @@ footer{
     border-radius: 10%;
 }
 
-/* LOJA */
+/* *** LOJA *** */
 
 #container-principal{
     margin-top: 5%;
@@ -261,7 +261,7 @@ footer{
     padding: 15px;
 }
 
-/* JOGO */
+/* *** JOGO *** */
 
 #titulo-jogo{
     background-color: lightgray;
@@ -285,7 +285,7 @@ footer{
     align-items: center;
 } 
 
-/* BIBLIOTECA */
+/* *** BIBLIOTECA *** */
 
 #jogo-biblioteca{
     border-top: lightgray 1px solid;
@@ -296,7 +296,7 @@ footer{
     padding: 15px;
 }
 
-/* CARRINHO */
+/* *** CARRINHO *** */
 
 #jogo-carrinho{
     border-top: lightgray 1px solid;
@@ -319,4 +319,49 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+/* *** PERFIL *** */
+
+#perfil{
+    padding: 20px;
+}
+
+#foto-perfil{
+    float: left;
+}
+
+#info-perfil{
+    float: left;
+    padding-top: 9%;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+#info-perfil h2, #info-perfil p{
+    margin: 0;
+    padding: 0;
+}
+
+.jogo-perfil{
+    margin:15px;
+    float: left;
+}
+
+.borda{
+    border-radius: 20%;
+}
+
+.titulo-perfil{
+    padding-top: 30px;
+    margin-left: 15px;
+    float: left;
+}
+
+#jogos-perfil{
+    margin-top: 50px;
+}
+
+#botao-alterar{
+    float: right;
 }
