@@ -25,18 +25,18 @@
   <p>Aqui estão algumas telas:</p>
   <h3>Tela Inicial:</h3>
   <hr>
-  <img src="img/screenshots/index-2.jpg">
-  <img src="img/screenshots/index-1.jpg">
+  <img src="master/img/screenshots/index-2.jpg">
+  <img src="master/img/screenshots/index-1.jpg">
   <br>
   
   <h3>Início:</h3>
   <hr>
-  <img src="img/screenshots/inicio.jpg">
+  <img src="master/img/screenshots/inicio.jpg">
   <br>
   
   <h3>Loja:</h3>
   <hr>
-  <img src="img/screenshots/loja.jpg">
+  <img src="master/img/screenshots/loja.jpg">
   <br>
   
 </div>
