@@ -13,15 +13,18 @@
  <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
  <a href="#-layout">Layout</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-como-rodar">Como Rodar</a> • 
- <a href="#licenca">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#-como-rodar">Como Rodar</a> •
+ <a href="-#autora">Autora</a>
 </div>
+
+---
 
 ## 💾 Sobre o Projeto
 <div id="sobre">
   <p>GameChoose é um projeto escolar criado em 2019, por mim, Lucas Henriques Maluf, Pamela Brandão Olival e Victor Guilherme. Após ser concluído, decidi reciclar o projeto      e refazê-lo. Consiste em um sistema de compra de jogos online, assim como a Epic Games ou a Steam.</p>
 </div>
+
+---
 
 ## 🎨 Layout
 <div id="layout">
@@ -37,6 +40,8 @@
   </div>
 </div>
 
+---
+
 ## 🛠 Tecnologias
 <div id="tecnologia">
   <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
@@ -47,6 +52,7 @@
   </ul>
 </div> 
 
+---
 
 ## 🚀 Como Rodar
 <div id="como-rodar">
@@ -69,7 +75,10 @@
   <br>
 </div>
 
+---
+
 ## 🙋🏻‍♀️ Autora
-<img style="border-radius: 20%;" src="https://user-images.githubusercontent.com/70920017/116608145-3db4f000-a909-11eb-81ec-daddc271bd6b.png" width="100px;">
+<a href="https://www.linkedin.com/in/larissa-sousa-silva-491893204/"><img style="border-radius: 20%;" src="https://user-images.githubusercontent.com/70920017/116608426-8bc9f380-a909-11eb-9678-dcca1a11906b.png" width="100px;"></a>
 
-
+<br>
+<br>
