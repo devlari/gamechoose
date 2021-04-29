@@ -1,3 +1,9 @@
+<style>
+  .padding{
+    padding:10px;
+    float:left;
+  }
+</style>
 <div align="center">
   <img style="float:left;" src="https://img.shields.io/static/v1?label=Front-end&message=99%&color=78BC61&style=for-the-badge&logo=ghost"/>
   <img style="float:left;" src="https://img.shields.io/static/v1?label=Back-end&message=0%&color=78BC61&style=for-the-badge&logo=ghost"/>
@@ -48,6 +54,11 @@
   <p>Todo o layout está disponível no Figma:</p>
   <a href="https://www.figma.com/file/e3IuNTvejzuZRgU8mxBpi3/GameChoose?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Acesse&message=Figma&color=78BC61&style=plastic&logo=ghost"/></a>
   <p>Um pouco do layout feito:</p>
+  
+  <img class="padding" src="./img/printscreens/figma-inicio.jpg">
+  <img class="padding" src="./img/printscreens/figma-loja.jpg">
+  <img class="padding" src="./img/printscreens/figma-jogo.jpg">
+  <img class="padding" src="./img/printscreens/figma-biblioteca.jpg">
   
 </div>
 
