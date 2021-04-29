@@ -9,32 +9,40 @@ body{
     background-color: #1B1811;
     font-size: 14pt;
 }
+
 .fira-branco{
     font-family: Fira Sans;
     color:#FDFFFC;
 }
+
 .fira-preto{
     font-family: Fira Sans;
     color:#1B1811;
 }
+
 .fira-verde{
     font-family: Fira Sans;
     color:#78BC61;   
 }
+
 .changa{
     font-family: Changa;
     color: #78BC61;
 }
+
 .verde{
     background-color: #78BC61;
 }
+
 .centralizar{
     width:100%;
     text-align: center;
 }
+
 .imagem-escura{
     filter: opacity(50%);
 }
+
 .clear{
     clear:both;
 }
@@ -45,13 +53,14 @@ body{
     color:#FDFFFC;
     border-style: none;
 }
+
 #menu ul li a:hover{
     color:#78BC61;
 }
+
 #menu a.ativo{
     color:#78BC61;
 }
-
 
 /* Imagem principal */
 
@@ -70,6 +79,7 @@ body{
     margin-right: 10%;
     margin-top: 5%;
 }
+
 /* Poderia colocar a class Changa nesses H2,
     Mas por algum motivo a cor não aparecia,
     então forcei o h2 */
@@ -77,6 +87,7 @@ body{
     font-family: Changa;
     color: #78BC61;
 }
+
 #conteudo-index a:hover{
     color:#FDFFFC;
 }
@@ -85,6 +96,10 @@ body{
 
 footer{
     background-color: #78BC61;
+}
+
+.navbar-end{
+    padding-top: 5px;
 }
 
 /* *** CADASTRO/LOGIN *** */
@@ -97,13 +112,16 @@ footer{
     margin-left: 15%;
     margin-bottom: 5%;
 }
+
 .caixa{
     margin-left: 5%;
 }
+
 .textbox{
     width:95%;
     margin-bottom: 20px;
 }
+
 .botao{
     margin-top:30px;
     margin-bottom: 30px;
@@ -120,20 +138,32 @@ footer{
     position: absolute;
     margin-left: 50px;
 }
-#podium{
+
+#container-inicio{
     margin:5%;
+    margin-left: 50px;
     width:90%;
 }
 
 #icones{
     margin-left: 5%;
+    margin: 30px auto;
 }
 
 .icone{
     float: left;
     margin-left: 5%;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     text-align: center;
+    width:150px;
+    height:150px;
+}
+
+.icone-gratuito{
+    width:250px;
+    height: 250px;
+    text-align: center;
+    margin: 30px auto;
 }
 
 .nomejogo{
@@ -147,6 +177,7 @@ footer{
     font-family: Changa;
     color: #FFD700;
 }
+
 .borda-primeiro{
     border: 10px solid #FFD700;
     border-radius: 10%;
@@ -156,6 +187,7 @@ footer{
     font-family: Changa;
     color: #C0C0C0;
 }
+
 .borda-segundo{
     border: 10px solid #C0C0C0;
     border-radius: 10%;
@@ -165,18 +197,20 @@ footer{
     font-family: Changa;
     color: #CD7F32;
 }
+
 .borda-terceiro{
     border: 10px solid #CD7F32;
+    border-radius: 10%;
+}
+
+.borda-branco{
+    border: 10px solid #FFFFFF;
     border-radius: 10%;
 }
 
 .changa-branco{
     font-family: Changa;
     color: #FFFFFF;
-}
-.borda-branco{
-    border: 10px solid #fff;
-    border-radius: 10%;
 }
 
 /* *** LOJA *** */
@@ -221,6 +255,7 @@ footer{
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Efeitinho 3d */
 }
+
 /* Este container é necessário para posicionar a parte frontal e traseira */
 .flip-card-inner {
     position: relative;
@@ -255,6 +290,7 @@ footer{
     background-color: black;
     color: white;
     transform: rotateY(180deg);
+    padding-top: 25px;
 }
 
 #paginacao{
@@ -270,9 +306,7 @@ footer{
 }
 
 #descricao-jogo{
-    margin-top: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 50px;
 }
 
 #comprar{
@@ -298,27 +332,36 @@ footer{
 
 /* *** CARRINHO *** */
 
+#titulo-carrinho{
+    padding: 20px;
+}
+
 #jogo-carrinho{
     border-top: lightgray 1px solid;
     border-bottom: lightgray 1px solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 #preco{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 10px;
 }
 
 #total{
-    margin-top: 15px;
-    margin-right: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding: 30px;
+}
+
+.borda-preto{
+    border: #C0C0C0 solid 2px;
+    border-radius: 15%;
 }
 
 /* *** PERFIL *** */
@@ -343,6 +386,24 @@ footer{
     padding: 0;
 }
 
+#jogos-perfil{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#botao-alterar{
+    float: right;
+}
+
+#borda-perfil{
+    border: 2px solid #C0C0C0;
+}
+
+#upload{
+    width: 317px;
+    padding: 0px 40px;
+}
+
 .jogo-perfil{
     margin:15px;
     float: left;
@@ -356,12 +417,4 @@ footer{
     padding-top: 30px;
     margin-left: 15px;
     float: left;
-}
-
-#jogos-perfil{
-    margin-top: 50px;
-}
-
-#botao-alterar{
-    float: right;
 }
