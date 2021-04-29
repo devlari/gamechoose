@@ -33,10 +33,10 @@
   <p>Um pouco do layout feito:</p>
   
   <div align="center">
-    <img src="./img/printscreens/figma-inicio.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img src="./img/printscreens/figma-loja.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img src="./img/printscreens/figma-jogo.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img src="./img/printscreens/figma-biblioteca.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="./img/printscreens/figma-inicio.jpg" height=50% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="./img/printscreens/figma-loja.jpg" height=50% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="./img/printscreens/figma-jogo.jpg" height=50% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="./img/printscreens/figma-biblioteca.jpg" height=50% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   </div>
 </div>
 
