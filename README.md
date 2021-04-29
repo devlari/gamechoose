@@ -25,18 +25,18 @@
   <p>Aqui estão algumas telas:</p>
   <h3>Tela Inicial:</h3>
   <hr>
-  <img src="../GameChoose/img/screenshots/index-2.jpg">
-  <img src="master/img/screenshots/index-1.jpg">
+  <img src="./img/printscreens/index-1.jpg">
+  <img src="./img/printscreens/index-2.jpg">
   <br>
   
   <h3>Início:</h3>
   <hr>
-  <img src="master/img/screenshots/inicio.jpg">
+  <img src="./img/printscreens/inicio.jpg">
   <br>
   
   <h3>Loja:</h3>
   <hr>
-  <img src="master/img/screenshots/loja.jpg">
+  <img src="./img/printscreens/loja.jpg">
   <br>
   
 </div>
@@ -47,6 +47,7 @@
   
   <p>Todo o layout está disponível no Figma:</p>
   <a href="https://www.figma.com/file/e3IuNTvejzuZRgU8mxBpi3/GameChoose?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Acesse&message=Figma&color=78BC61&style=plastic&logo=ghost"/></a>
+  <p>Um pouco do layout feito:</p>
   
 </div>
 
