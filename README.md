@@ -22,14 +22,17 @@
   <h2>💾 Sobre o Projeto</h2>
   <p>GameChoose é um projeto escolar criado em 2019, por mim, Lucas Henriques Maluf, Pamela Brandão Olival e Victor Guilherme. Após ser concluído, decidi reciclar o projeto      e refazê-lo. Consiste em um sistema de compra de jogos online, assim como a Epic Games ou a Steam.</p>
   <p>Aqui estão algumas telas:</p>
-  <h4>Tela Inicial</h4>
+  <h3>Tela Inicial:</h3>
+  <hr>
   <img src=https://user-images.githubusercontent.com/70920017/116582270-91184580-a8eb-11eb-9f85-2b581ad1419b.png>
   <img src="https://user-images.githubusercontent.com/70920017/116582419-ba38d600-a8eb-11eb-9d44-38faa7f683a8.png">
   
-  <h4>Início</h4>
+  <h3>Início:</h3>
+  <hr>
   <img src="https://user-images.githubusercontent.com/70920017/116582922-33382d80-a8ec-11eb-8056-b99ef25f1204.png">
   
-  <h4>Loja</h4>
+  <h3>Loja:</h3>
+  <hr>
   <img src="https://user-images.githubusercontent.com/70920017/116583515-d0936180-a8ec-11eb-8f62-f1cc112e9570.png">
   
 </div> 
