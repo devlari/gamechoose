@@ -14,7 +14,7 @@
  <a href="#-layout">Layout</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
  <a href="#-como-rodar">Como Rodar</a> •
- <a href="#---autora">Autora</a>
+ <a href="#--autora">Autora</a>
 </div>
 
 ---
