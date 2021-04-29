@@ -1,9 +1,3 @@
-<style>
-  .padding{
-    padding:10px;
-    float:left;
-  }
-</style>
 <div align="center">
   <img style="float:left;" src="https://img.shields.io/static/v1?label=Front-end&message=99%&color=78BC61&style=for-the-badge&logo=ghost"/>
   <img style="float:left;" src="https://img.shields.io/static/v1?label=Back-end&message=0%&color=78BC61&style=for-the-badge&logo=ghost"/>
@@ -16,18 +10,47 @@
 
 <div align="center">
  <p>🚧 GameChoose 🎮| Em andamento 🚧</p>
- <a href="#sobre">Sobre o Projeto</a> •
- <a href="#layout">Layout</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#como-rodar">Como Rodar</a> • 
+ <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-como-rodar">Como Rodar</a> • 
  <a href="#licenca">Licença</a> • 
  <a href="#autor">Autor</a>
 </div>
 
+## 💾 Sobre o Projeto
 <div id="sobre">
-  
-  <h2>💾 Sobre o Projeto</h2>
   <p>GameChoose é um projeto escolar criado em 2019, por mim, Lucas Henriques Maluf, Pamela Brandão Olival e Victor Guilherme. Após ser concluído, decidi reciclar o projeto      e refazê-lo. Consiste em um sistema de compra de jogos online, assim como a Epic Games ou a Steam.</p>
+</div>
+
+## 🎨 Layout
+<div id="layout">
+  <p>Todo o layout está disponível no Figma:</p>
+  <a href="https://www.figma.com/file/e3IuNTvejzuZRgU8mxBpi3/GameChoose?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Acesse&message=Figma&color=78BC61&style=plastic&logo=ghost"/></a>
+  <p>Um pouco do layout feito:</p>
+  
+  <div align="center">
+    <img src="./img/printscreens/figma-inicio.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="./img/printscreens/figma-loja.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="./img/printscreens/figma-jogo.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="./img/printscreens/figma-biblioteca.jpg" height=400 align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  </div>
+</div>
+
+## 🛠 Tecnologias
+<div id="tecnologia">
+  <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li><a href="https://bulma.io">Bulma</a></li>
+  </ul>
+</div> 
+
+
+## 🚀 Como Rodar
+<div id="como-rodar">
+  <p>Como o projeto ainda não está concluído, não está na web. Porém quando estiver concluído, irei postá-lo e realizar manutenções para mantê-lo ativo.</p>
   <p>Aqui estão algumas telas:</p>
   <h3>Tela Inicial:</h3>
   <hr>
@@ -44,33 +67,9 @@
   <hr>
   <img src="./img/printscreens/loja.jpg">
   <br>
-  
 </div>
 
-<div id="layout">
-  
-  <h2>🎨 Layout</h2>
-  
-  <p>Todo o layout está disponível no Figma:</p>
-  <a href="https://www.figma.com/file/e3IuNTvejzuZRgU8mxBpi3/GameChoose?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Acesse&message=Figma&color=78BC61&style=plastic&logo=ghost"/></a>
-  <p>Um pouco do layout feito:</p>
-  
-  <img class="padding" src="./img/printscreens/figma-inicio.jpg">
-  <img class="padding" src="./img/printscreens/figma-loja.jpg">
-  <img class="padding" src="./img/printscreens/figma-jogo.jpg">
-  <img class="padding" src="./img/printscreens/figma-biblioteca.jpg">
-  
-</div>
-
-
-<div id="tecnologia">
-  <h2>🛠 Tecnologias</h2>
-  <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li><a href="https://bulma.io">Bulma</a></li>
-  </ul>
-</div> 
+## 🙋🏻‍♀️ Autora
+<img style="border-radius: 20%;" src="https://user-images.githubusercontent.com/70920017/116608145-3db4f000-a909-11eb-81ec-daddc271bd6b.png" width="100px;">
 
 
