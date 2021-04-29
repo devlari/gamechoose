@@ -77,8 +77,10 @@
 
 ---
 
-## 🙋🏻‍♀️ Autora
+## 👩🏻‍💻 Autora
 <a href="https://www.linkedin.com/in/larissa-sousa-silva-491893204/"><img style="border-radius: 20%;" src="https://user-images.githubusercontent.com/70920017/116608426-8bc9f380-a909-11eb-9678-dcca1a11906b.png" width="100px;"></a>
+
+---
 
 <br>
 <br>
