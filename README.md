@@ -10,15 +10,15 @@
 
 <div align="center">
  <p>🚧 GameChoose 🎮| Em andamento 🚧</p>
- <a href="#objetivo">Sobre o Projeto</a> •
- <a href="#roadmap">Roadmap</a> • 
+ <a href="#sobre">Sobre o Projeto</a> •
+ <a href="#layout">Layout</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
+ <a href"#como-rodar">Como Rodar</a> • 
+ <a href="#licenca">Licença</a> • 
  <a href="#autor">Autor</a>
 </div>
 
-<div>
+<div id="tecnologia">
   <h2>🛠 Tecnologias</h2>
   <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
   <ul>
