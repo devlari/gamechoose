@@ -25,7 +25,7 @@
   <p>Aqui estão algumas telas:</p>
   <h3>Tela Inicial:</h3>
   <hr>
-  <img src="master/img/screenshots/index-2.jpg">
+  <img src="../GameChoose/img/screenshots/index-2.jpg">
   <img src="master/img/screenshots/index-1.jpg">
   <br>
   
