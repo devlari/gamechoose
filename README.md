@@ -25,18 +25,18 @@
   <p>Aqui estão algumas telas:</p>
   <h3>Tela Inicial:</h3>
   <hr>
-  <img src=https://user-images.githubusercontent.com/70920017/116582270-91184580-a8eb-11eb-9f85-2b581ad1419b.png>
-  <img src="https://user-images.githubusercontent.com/70920017/116582419-ba38d600-a8eb-11eb-9d44-38faa7f683a8.png">
+  <img src="img/screenshots/index-2.jpg">
+  <img src="img/screenshots/index-1.jpg">
   <br>
   
   <h3>Início:</h3>
   <hr>
-  <img src="https://user-images.githubusercontent.com/70920017/116582922-33382d80-a8ec-11eb-8056-b99ef25f1204.png">
+  <img src="img/screenshots/inicio.jpg">
   <br>
   
   <h3>Loja:</h3>
   <hr>
-  <img src="https://user-images.githubusercontent.com/70920017/116583515-d0936180-a8ec-11eb-8f62-f1cc112e9570.png">
+  <img src="img/screenshots/loja.jpg">
   <br>
   
 </div>
@@ -44,6 +44,9 @@
 <div id="layout">
   
   <h2>🎨 Layout</h2>
+  
+  <p>Todo o layout está disponível no Figma:</p>
+  <a href="https://www.figma.com/file/e3IuNTvejzuZRgU8mxBpi3/GameChoose?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Acesse&message=Figma&color=78BC61&style=plastic&logo=ghost"/></a>
   
 </div>
 
