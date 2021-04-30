@@ -9,7 +9,7 @@ create table usuario(
 
 create table biblioteca(
 	cod_biblioteca int(6) primary key auto_increment,
-    cod_usuario_biblioteca int(6) references usuario
+    	cod_usuario_biblioteca int(6) references usuario
 );
 
 create table jogo(
@@ -24,7 +24,7 @@ create table jogo(
 
 create table pedido(
 	cod_pedido int(6) primary key auto_increment,
-    cod_usuario_pedidofk int(6) references usuario,
+    	cod_usuario_pedidofk int(6) references usuario,
 	total_pedido float(10,2) not null
 );
 
@@ -35,20 +35,20 @@ create table carrinho(
 
 create table categoria(
 	cod_categoria int(6) primary key auto_increment,
-    nome_categoria varchar(30) not null
+    	nome_categoria varchar(30) not null
 );
 
 create table requisitos(
 	cod_requisitos int(6) primary key auto_increment,
-    cod_jogo_requisitosfk int(6) references jogo,
-    sistema_minimo varchar(50) not null,
-    sistema_recomendado varchar(50) not null,
-    processador_minimo varchar(50) not null,
-    processador_recomendado varchar(50) not null,
-    placa_minimo varchar(50) not null,
-    placa_recomendado varchar(50) not null,
-    ram_minimo varchar(50) not null,
-    ram_recomendado varchar(50) not null,
-    armaz_minimo varchar(50) not null,
-    armaz_recomendado varchar(50) not null,
+    	cod_jogo_requisitosfk int(6) references jogo,
+    	sistema_minimo varchar(50) not null,
+    	sistema_recomendado varchar(50) not null,
+    	processador_minimo varchar(50) not null,
+    	processador_recomendado varchar(50) not null,
+    	placa_minimo varchar(50) not null,
+    	placa_recomendado varchar(50) not null,
+    	ram_minimo varchar(50) not null,
+    	ram_recomendado varchar(50) not null,
+    	armaz_minimo varchar(50) not null,
+    	armaz_recomendado varchar(50) not null,
 );
