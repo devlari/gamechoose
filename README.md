@@ -21,7 +21,7 @@
 
 ## 💾 Sobre o Projeto
 <div id="sobre">
-  <p>O GameChoose é um site totalmente fictício, que consiste em um sistema de venda de jogos online. A ideia veio por um trabalho em grupo, feito em 2019. Após alguns anos de sua conclusão, eu (Larissa Sousa) decidi recriar o projeto, porém do zero desta vez.</p>
+  <p>O GameChoose é um site totalmente fictício, que consiste em um sistema de venda de jogos online. A ideia veio por um trabalho em grupo, feito em 2019. Após alguns anos de sua conclusão, decidi recriar o projeto, porém do zero desta vez.</p>
 </div>
 
 ---
