@@ -21,7 +21,7 @@
 
 ## 💾 Sobre o Projeto
 <div id="sobre">
-  <p>GameChoose é um projeto escolar criado em 2019, por mim, Lucas Henriques Maluf, Pamela Brandão Olival e Victor Guilherme. Após ser concluído, decidi reciclar o projeto      e refazê-lo. Consiste em um sistema de compra de jogos online, assim como a Epic Games ou a Steam.</p>
+  <p>O GameChoose é um site totalmente fictício, que consiste em um sistema de venda de jogos online. A ideia veio por um trabalho em grupo, feito em 2019. Após alguns anos de sua conclusão, eu (Larissa Sousa) decidi recriar o projeto, porém do zero desta vez.</p>
 </div>
 
 ---
