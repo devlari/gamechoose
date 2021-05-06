@@ -75,9 +75,9 @@ body{
 /* Conteúdo da página */
 
 #conteudo-index{
-    margin-left:10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    width:80%;
+    margin: 0 auto;
+    margin-top: 5;
 }
 
 /* Poderia colocar a class Changa nesses H2,
@@ -105,27 +105,27 @@ footer{
 /* *** CADASTRO/LOGIN *** */
 
 #cadastro-login{
-    margin-top:5%;
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom: 30px;
     background-color:#FDFFFC;
     border-radius: 20px;
     width:70%;
-    margin-left: 15%;
-    margin-bottom: 5%;
 }
 
 .caixa{
-    margin-left: 5%;
+    width:80%;
+    margin: 0 auto;
 }
 
 .textbox{
-    width:95%;
     margin-bottom: 20px;
 }
 
 .botao{
     margin-top:30px;
     margin-bottom: 30px;
-    width:90%;
+    width:80%;
     background-color: #78BC61;
 }
 
@@ -140,14 +140,13 @@ footer{
 }
 
 #container-inicio{
-    margin:5%;
-    margin-left: 50px;
+    margin: 0 auto;
     width:90%;
 }
 
 #icones{
-    margin-left: 5%;
-    margin: 30px auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .icone{
@@ -157,13 +156,6 @@ footer{
     text-align: center;
     width:150px;
     height:150px;
-}
-
-.icone-gratuito{
-    width:250px;
-    height: 250px;
-    text-align: center;
-    margin: 30px auto;
 }
 
 .nomejogo{
@@ -216,11 +208,10 @@ footer{
 /* *** LOJA *** */
 
 #container-principal{
-    margin-top: 5%;
-    height: 100%;
     background-color: #FDFFFC;
     width: 90%;
-    margin-left: 5%;
+    margin-top: 50px;
+    margin: 0 auto;
     margin-bottom: 50px;
     border-radius: 20px;
 }
@@ -236,14 +227,22 @@ footer{
     margin-bottom: 10px;
 }
 
+.pesquisa{
+    background: url(/img/lupa-cinza.png) no-repeat left center;
+    padding-left: 35px;
+}
+
 .jogo{
     float: left;
-    margin-left: 5px;
+    width:200px;
     margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .jogos{
-    margin-left: 4%;
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 4%;
 }
 
 /* Sistema de flipcard */

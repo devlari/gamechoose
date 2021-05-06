@@ -1,568 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-    <link rel="sortcut icon" href="img/iconecontrole.ico" type="image/x-icon" />
-    <title>TESTE</title>
-</head>
-<body>
-    <!-- Menu Site -->
-    <div class="tabs fira-branco is-fullwidth is-centered is-medium" id="menu">
-        <ul>
-            <li><a href="inicio.html"><img src="img/menu.png" width=40 height=40 class="imagem-principal" /></a></li>
-            <li><a class="ativo" href="loja.html">Loja</a></li>
-            <li><a href="biblioteca.html">Biblioteca</a></li>
-            <li><a href="carrinho.html">Carrinho</a></li>
-            <li><a href="perfil.html">Perfil</a></li>
-            <li><a href="index.html">Sair</a></li>
-        </ul>
-    </div>
-
-
-    <div id="container-principal">
-      <!-- Filtros (ainda não finalizado) -->      
-      <nav class="navbar padding" role="navigation">
-            <div class="navbar-start">
-              <div class="navbar-item">
-                <p class="fira-preto"><strong>Filtrar por:</strong></p>
-              </div>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class=" fira-preto navbar-link is-arrowless">
-                  Nome ↓
-                </a>
-                <div class="navbar-dropdown">
-                  <a class="fira-preto navbar-item">
-                    A-Z
-                  </a>
-                  <a class="fira-preto navbar-item">
-                    Z-A
-                  </a>
-                </div>
-              </div>
-
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="fira-preto navbar-link is-arrowless">
-                  Preço ↓
-                </a>
-                <div class="navbar-dropdown">
-                  <a class="fira-preto navbar-item">
-                    Crescente
-                  </a>
-                  <a class="fira-preto navbar-item">
-                    Descrescente
-                  </a>
-              </div>
-              </div>
-
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="fira-preto navbar-link is-arrowless">
-                  Popularidade ↓
-                </a>
-                <div class="navbar-dropdown">
-                  <a class="fira-preto navbar-item">
-                    Mais vendidos
-                  </a>
-                  <a class="fira-preto navbar-item">
-                    Menos vendidos
-                  </a>
-                </div>
-            </div>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="fira-preto navbar-link is-arrowless">
-                Categoria ↓
-              </a>
-              <div class="navbar-dropdown">
-                <a class="fira-preto navbar-item">
-                  Ação
-                </a>
-                <a class="fira-preto navbar-item">
-                  RPG
-                </a>
-                <a class="fira-preto navbar-item">
-                  Aventura
-                </a>
-                <a class="fira-preto navbar-item">
-                  Terror
-                </a>
-              </div>
-            </div>
-
-        </div>
-      </nav>
-      
-
-        <!-- Loja -->
-        <div class="jogos">
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/cyberpunk.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa title is-4">Cyberpunk 2077</h1>
-                            <p class="fira-branco">160.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/moonlighter.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa title is-4">Moonlighter</h1>
-                            <p class="fira-branco">40.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/overcooked2.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa title is-4">Overcooked! 2</h1>
-                            <p class="fira-branco">60.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/tricky.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa title is-4">Tricky Towers</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="jogo">
-            <a href="jogo.html">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <img src="img/enterthe.jpg">
-                        </div>
-                        <div class="flip-card-back">
-                            <br/>
-                            <h1 class="changa title is-4">Enter The Gungeon</h1>
-                            <p class="fira-branco">30.00 R$</p>
-                            <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-          </div>
-  
-          <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/cyberpunk.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Cyberpunk</h1>
-                              <p class="fira-branco">160.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/moonlighter.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Moonlighter</h1>
-                              <p class="fira-branco">40.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/overcooked2.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Overcooked! 2</h1>
-                              <p class="fira-branco">60.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/tricky.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Tricky Towers</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/enterthe.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Enter The Gungeon</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-  
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/cyberpunk.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Cyberpunk</h1>
-                              <p class="fira-branco">160.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/moonlighter.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Moonlighter</h1>
-                              <p class="fira-branco">40.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/overcooked2.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Overcooked! 2</h1>
-                              <p class="fira-branco">60.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/tricky.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Tricky Towers</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/enterthe.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Enter The Gungeon</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-  
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/cyberpunk.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Cyberpunk</h1>
-                              <p class="fira-branco">160.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/moonlighter.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Moonlighter</h1>
-                              <p class="fira-branco">40.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/overcooked2.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Overcooked! 2</h1>
-                              <p class="fira-branco">60.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/tricky.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Tricky Towers</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/enterthe.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Enter The Gungeon</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-  
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/cyberpunk.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Cyberpunk</h1>
-                              <p class="fira-branco">160.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/moonlighter.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Moonlighter</h1>
-                              <p class="fira-branco">40.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/overcooked2.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Overcooked! 2</h1>
-                              <p class="fira-branco">60.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/tricky.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Tricky Towers</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="jogo">
-              <a href="jogo.html">
-                  <div class="flip-card">
-                      <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                             <img src="img/enterthe.jpg">
-                          </div>
-                          <div class="flip-card-back">
-                              <br/>
-                              <h1 class="changa">Enter The Gungeon</h1>
-                              <p class="fira-branco">30.00 R$</p>
-                              <p class="fira-branco is-medium">Clique para mais detalhes</p>
-                          </div>
-                      </div>
-                  </div>
-              </a>
-          </div>
-        </div>
-      
-        <hr class="clear">
-        <!-- Paginação -->
-        <nav class="pagination is-centered padding" role="navigation" aria-label="pagination">
-            <a class="fira-preto pagination-previous">Página anterior</a>
-            <a class="fira-preto pagination-next">Próxima página</a>
-            <ul class="pagination-list">
-              <li><a class="fira-preto pagination-link verde" aria-label="Goto page 1">1</a></li>
-              <li><a class="fira-preto pagination-link">2</a></li>
-              <li><a class="fira-preto pagination-link" aria-current="page">3</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="sortcut icon" href="img/iconecontrole.ico" type="image/x-icon" />
+        <title>TESTTE</title>
+    </head>
+    <body>
+        <!-- Menu Site -->
+        <div class="tabs fira-branco is-fullwidth is-centered is-medium" id="menu">
+            <ul>
+                <li><a href="inicio.html"><img src="img/menu.png" width=40 height=40 class="imagem-principal" /></a></li>
+                <li><a class="ativo" href="loja.html">Loja</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="index.html">Sair</a></li>
             </ul>
-        </nav>
-
-    </div>
-    
-    <!-- Footer -->
-    <footer>
-        <div class="navbar-menu is-active verde">
-            <div class="navbar-start">
-                <div class="navbar-item">
-                    <p class="content is-medium fira-preto"><strong>GameChoose | Larissa Sousa, 2021</strong></p>
-                </div>
-            </div>
-
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    <a href="https://www.facebook.com/larissa.sousa2401/"><img src="img/facebook.png"/></a>
-                </div>
-                <div class="navbar-item">
-                    <a href="https://www.linkedin.com/in/larissa-sousa-silva-491893204/"><img src="img/linkedin.png"/></a>
-                </div>
-                <div class="navbar-item">
-                    <a href="https://www.instagram.com/lissylari/"><img src="img/instagram.png"/></a>
-                </div>
-            </div>
         </div>
-    </footer>
-</body>
+
+
+        <div id="container-principal">
+        
+            <!-- Filtros (ainda não finalizado) -->      
+            <nav class="navbar" id="filtros" role="navigation">
+                <div class="navbar-start">
+                    
+                    <div class="navbar-item">
+                        <p class="fira-preto"><strong>Filtrar por:</strong></p>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class=" fira-preto navbar-link is-arrowless">
+                            Nome ↓
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="fira-preto navbar-item">
+                                A-Z
+                            </a>
+                            <a class="fira-preto navbar-item">
+                                Z-A
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="fira-preto navbar-link is-arrowless">
+                            Preço ↓
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="fira-preto navbar-item">
+                                Crescente
+                            </a>
+                            <a class="fira-preto navbar-item">
+                                Descrescente
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="fira-preto navbar-link is-arrowless">
+                            Popularidade ↓
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="fira-preto navbar-item">
+                                Mais vendidos
+                            </a>
+                            <a class="fira-preto navbar-item">
+                                Menos vendidos
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="fira-preto navbar-link is-arrowless">
+                            Categoria ↓
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="fira-preto navbar-item">
+                                Ação
+                            </a>
+                            <a class="fira-preto navbar-item">
+                                RPG
+                            </a>
+                            <a class="fira-preto navbar-item">
+                                Aventura
+                            </a>
+                            <a class="fira-preto navbar-item">
+                                Terror
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+            <!-- Loja -->
+            <div class="jogos">
+                
+                <!-- Repetição 1 -->
+                <div class="jogo">
+                    <h1 class="changa title is-4">Cyberpunk 2077</h1>
+                        <p class="fira-preto">160.00 R$</p>
+                        <p class="fira-preto is-medium">Clique para mais detalhes</p>
+                </div>
+                <div class="jogo">
+                    <h1 class="changa title is-4">Cyberpunk 2077</h1>
+                        <p class="fira-preto">160.00 R$</p>
+                        <p class="fira-preto is-medium">Clique para mais detalhes</p>
+                </div>
+                <div class="jogo">
+                    <h1 class="changa title is-4">Cyberpunk 2077</h1>
+                        <p class="fira-preto">160.00 R$</p>
+                        <p class="fira-preto is-medium">Clique para mais detalhes</p>
+                </div>
+                <div class="jogo">
+                    <h1 class="changa title is-4">Cyberpunk 2077</h1>
+                        <p class="fira-preto">160.00 R$</p>
+                        <p class="fira-preto is-medium">Clique para mais detalhes</p>
+                </div>
+                <div class="jogo">
+                    <h1 class="changa title is-4">Cyberpunk 2077</h1>
+                        <p class="fira-preto">160.00 R$</p>
+                        <p class="fira-preto is-medium">Clique para mais detalhes</p>
+                </div>
+
+                <div class="clear"></div>
+                
+            </div>
+        
+            <hr class="clear">
+            <!-- Paginação -->
+            <nav class="pagination is-centered" id="paginacao" role="navigation" aria-label="pagination">
+                <a class="fira-preto pagination-previous">Página anterior</a>
+                <a class="fira-preto pagination-next">Próxima página</a>
+                    <ul class="pagination-list">
+                        <li><a class="fira-preto pagination-link verde" aria-label="Goto page 1">1</a></li>
+                        <li><a class="fira-preto pagination-link">2</a></li>
+                        <li><a class="fira-preto pagination-link" aria-current="page">3</a></li>
+                    </ul>
+            </nav>
+
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+
+            <div class="navbar-menu is-active verde">
+                <div class="navbar-start">
+                    <div class="navbar-item">
+                        <p class="content is-medium fira-preto"><strong>GameChoose | Larissa Sousa, 2021</strong></p>
+                    </div>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a href="https://www.facebook.com/larissa.sousa2401/"><img src="img/facebook.png"/></a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="https://www.linkedin.com/in/larissa-sousa-silva-491893204/"><img src="img/linkedin.png"/></a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="https://github.com/devlari"><img src="img/github.png"/></a>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </body>
 </html>
