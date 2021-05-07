@@ -1,7 +1,7 @@
 <div align="center">
   <img style="float:left;" src="https://img.shields.io/static/v1?label=Front-end&message=99%&color=78BC61&style=for-the-badge&logo=ghost"/>
   <img style="float:left;" src="https://img.shields.io/static/v1?label=Back-end&message=0%&color=78BC61&style=for-the-badge&logo=ghost"/>
-  <img style="float:left;" src="https://img.shields.io/static/v1?label=Banco&message=40%&color=78BC61&style=for-the-badge&logo=ghost"/>
+  <img style="float:left;" src="https://img.shields.io/static/v1?label=Banco&message=99%&color=78BC61&style=for-the-badge&logo=ghost"/>
 </div>
 
 <h1 align="center">
@@ -49,6 +49,7 @@
     <li>HTML</li>
     <li>CSS</li>
     <li><a href="https://bulma.io">Bulma</a></li>
+    <li><a href="https://www.javascript.com">JavaScript</a></li>
   </ul>
 </div> 
 
@@ -58,21 +59,22 @@
 <div id="como-rodar">
   <p>Como o projeto ainda não está concluído, não está na web. Porém quando estiver concluído, irei postá-lo e realizar manutenções para mantê-lo ativo.</p>
   <p>Aqui estão algumas telas:</p>
-  <h3>Tela Inicial:</h3>
-  <hr>
+
+  <h2 align="center" style="line-height:60px"><strong>Tela Inicial</strong></h2>
   <img src="./img/printscreens/index-1.jpg">
   <img src="./img/printscreens/index-2.jpg">
-  <br>
   
-  <h3>Início:</h3>
-  <hr>
+  <h2 align="center" style="line-height:60px"><strong>Início</strong></h2>
   <img src="./img/printscreens/inicio.jpg">
-  <br>
   
-  <h3>Loja:</h3>
-  <hr>
+  <h2 align="center" style="line-height:60px"><strong>Loja</strong></h2>
   <img src="./img/printscreens/loja.jpg">
-  <br>
+
+  <h2 align="center" style="line-height:60px"><strong>Jogo</strong></h2>
+  <img src="./img/printscreens/jogo-1.jpg">
+  <img src="./img/printscreens/jogo-2.jpg">
+
+  
 </div>
 
 ---

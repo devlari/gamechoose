@@ -77,7 +77,7 @@ body{
 #conteudo-index{
     width:80%;
     margin: 0 auto;
-    margin-top: 5;
+    margin-top: 50px;
 }
 
 /* Poderia colocar a class Changa nesses H2,
@@ -142,6 +142,8 @@ footer{
 #container-inicio{
     margin: 0 auto;
     width:90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #icones{
@@ -228,7 +230,7 @@ footer{
 }
 
 .pesquisa{
-    background: url(/img/lupa-cinza.png) no-repeat left center;
+    background: url(../img/lupa-cinza.png) no-repeat left center;
     padding-left: 35px;
 }
 
