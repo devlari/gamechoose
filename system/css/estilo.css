@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css");
+
+/* *** PÁGINA PRINCIPAL *** */
+/* Mudanças em cores/formatos */
+
+html{
+    height: 100%;
+    background-color: #1B1811;
+}
+
+body{
+    height: 100%;
+    font-size: 14pt;
+}
+
+.fira-branco{
+    font-family: Fira Sans;
+    color:#FDFFFC;
+}
+
+.fira-preto{
+    font-family: Fira Sans;
+    color:#1B1811;
+}
+
+.fira-verde{
+    font-family: Fira Sans;
+    color:#78BC61;   
+}
+
+.changa{
+    font-family: Changa;
+    color: #78BC61;
+}
+
+.verde{
+    background-color: #78BC61;
+}
+
+#paginacao ul .verde:hover{
+    color: #FDFFFC;
+}
+
+.centralizar{
+    width:100%;
+    text-align: center;
+}
+
+.imagem-escura{
+    filter: opacity(50%);
+}
+
+.clear{
+    clear:both;
+}
+
+/* *** MENU *** */
+
+#menu ul li a{
+    color:#FDFFFC;
+    border-style: none;
+}
+
+#menu ul li a:hover{
+    color:#78BC61;
+}
+
+#menu a.ativo{
+    color:#78BC61;
+}
+
+/* Imagem principal */
+
+#titulo{
+    position: absolute;
+    top: 40%;
+    width:100%;
+    line-height: 30px;
+    text-align: center;
+}
+
+#caixa{
+    height: 100%;
+    background-image: url(../img/jogos/jogosescuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* Conteúdo da página */
+
+#conteudo-index{
+    width:80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+/* Poderia colocar a class Changa nesses H2,
+    Mas por algum motivo a cor não aparecia,
+    então forcei o h2 */
+#conteudo-index h2{
+    font-family: Changa;
+    color: #78BC61;
+}
+
+#conteudo-index a:hover{
+    color:#FDFFFC;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #78BC61;
+}
+
+.navbar-end{
+    padding-top: 5px;
+}
+
+/* *** CADASTRO/LOGIN *** */
+
+#cadastro-login{
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom: 30px;
+    background-color:#FDFFFC;
+    border-radius: 20px;
+    width:70%;
+}
+
+.caixa{
+    width:80%;
+    margin: 0 auto;
+}
+
+.textbox{
+    margin-bottom: 20px;
+}
+
+.botao{
+    margin-top:30px;
+    margin-bottom: 30px;
+    width:80%;
+    background-color: #78BC61;
+}
+
+/* *** PÁGINA INICIAL *** */
+
+#destaque{
+    top: 3%;
+    width:100%;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#container-inicio{
+    margin: 0 auto;
+    width:90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#icones{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icone{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 80px;
+    text-align: center;
+    width:150px;
+    height:150px;
+}
+
+.nomejogo{
+    width: 128px;
+    margin-top: 10px;
+}
+
+/* Cores diferenciadas das bordas */
+
+.changa-primeiro{
+    font-family: Changa;
+    color: #FFD700;
+}
+
+.borda-primeiro{
+    border: 10px solid #FFD700;
+    border-radius: 10%;
+}
+
+.changa-segundo{
+    font-family: Changa;
+    color: #C0C0C0;
+}
+
+.borda-segundo{
+    border: 10px solid #C0C0C0;
+    border-radius: 10%;
+}
+
+.changa-terceiro{
+    font-family: Changa;
+    color: #CD7F32;
+}
+
+.borda-terceiro{
+    border: 10px solid #CD7F32;
+    border-radius: 10%;
+}
+
+.borda-branco{
+    border: 10px solid #FFFFFF;
+    border-radius: 10%;
+}
+
+.changa-branco{
+    font-family: Changa;
+    color: #FFFFFF;
+}
+
+/* *** LOJA *** */
+
+#container-principal{
+    background-color: #FDFFFC;
+    width: 90%;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+#container-principal nav a:hover{
+    color:#78BC61;
+} 
+
+#filtros{
+    padding: 15px; 
+    border-radius: 20px 20px 0 0;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.pesquisa{
+    background: url(../../system/img/icons/lupa-cinza.png) no-repeat left center;
+    padding-left: 35px;
+}
+
+.jogo{
+    float: left;
+    width:200px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.jogos{
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 4%;
+}
+
+/* Sistema de flipcard */
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Efeitinho 3d */
+}
+
+/* Este container é necessário para posicionar a parte frontal e traseira */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Da o 180 bonitão */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Posição das duas divs juntas */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Parte da frente (caso n tenha imagem) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Estilo da parte de trás */
+.flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    padding-top: 25px;
+}
+
+#paginacao{
+    padding: 15px;
+}
+
+/* *** JOGO *** */
+
+#titulo-jogo{
+    background-color: lightgray;
+    border-radius: 20px 20px 0 0;
+    padding:20px;
+}
+
+#descricao-jogo{
+    padding: 50px;
+}
+
+#sobre-jogo{
+    text-align: justify;
+}
+
+#comprar{
+    height:80px;
+    background-color: lightgray;
+    border-radius: 0px 0px 17px 17px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+/* *** BIBLIOTECA *** */
+
+#jogo-biblioteca{
+    border-top: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* *** CARRINHO *** */
+
+#titulo-carrinho{
+    padding: 20px;
+}
+
+#jogo-carrinho{
+    border-top: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#preco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+#total{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.borda-preto{
+    border: #C0C0C0 solid 2px;
+    border-radius: 15%;
+}
+
+/* *** PERFIL *** */
+
+#perfil{
+    padding: 20px;
+}
+
+#foto-perfil{
+    float: left;
+}
+
+#info-perfil{
+    float: left;
+    padding-top: 9%;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+#info-perfil h2, #info-perfil p{
+    margin: 0;
+    padding: 0;
+}
+
+#jogos-perfil{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#botao-alterar{
+    float: right;
+}
+
+#borda-perfil{
+    border: 2px solid #C0C0C0;
+}
+
+#upload{
+    width: 317px;
+    padding: 0px 40px;
+}
+
+.jogo-perfil{
+    margin:15px;
+    float: left;
+}
+
+.borda{
+    border-radius: 20%;
+}
+
+.titulo-perfil{
+    padding-top: 30px;
+    margin-left: 15px;
+    float: left;
+}

@@ -33,10 +33,10 @@
   <p>Um pouco do layout feito:</p>
   
   <div align="center">
-    <img src="./img/printscreens/figma-inicio.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img src="./img/printscreens/figma-loja.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img src="./img/printscreens/figma-jogo.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img src="./img/printscreens/figma-biblioteca.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="system/img/printscreens/figma-inicio.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="system/img/printscreens/figma-loja.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="system/img/printscreens/figma-jogo.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img src="system/img/printscreens/figma-biblioteca.jpg" height=40% align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   </div>
 </div>
 
@@ -61,18 +61,18 @@
   <p>Aqui estão algumas telas:</p>
 
   <h2 align="center" style="line-height:60px"><strong>Tela Inicial</strong></h2>
-  <img src="./img/printscreens/index-1.jpg">
-  <img src="./img/printscreens/index-2.jpg">
+  <img src="system/img/printscreens/index-1.jpg">
+  <img src="system/img/printscreens/index-2.jpg">
   
   <h2 align="center" style="line-height:60px"><strong>Início</strong></h2>
-  <img src="./img/printscreens/inicio.jpg">
+  <img src="system/img/printscreens/inicio.jpg">
   
   <h2 align="center" style="line-height:60px"><strong>Loja</strong></h2>
-  <img src="./img/printscreens/loja.jpg">
+  <img src="system/img/printscreens/loja.jpg">
 
   <h2 align="center" style="line-height:60px"><strong>Jogo</strong></h2>
-  <img src="./img/printscreens/jogo-1.jpg">
-  <img src="./img/printscreens/jogo-2.jpg">
+  <img src="system/img/printscreens/jogo-1.jpg">
+  <img src="system/img/printscreens/jogo-2.jpg">
 
   
 </div>
